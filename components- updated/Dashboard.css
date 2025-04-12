@@ -1,0 +1,75 @@
+.budget-checker-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.upload-box input {
+  padding: 0.5rem;
+  margin: 1rem 0;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.uploaded-image {
+  max-width: 300px;
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  margin: 1.5rem 0;
+}
+
+.options button,
+.expense-form button,
+.bottom-buttons button {
+  background-color: #4caf50;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.options button:hover,
+.expense-form button:hover,
+.bottom-buttons button:hover {
+  background-color: #45a049;
+}
+
+.expense-form {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.expense-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.expense-form input {
+  padding: 0.5rem;
+  margin-bottom: 1.2rem;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.affordability-result {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.bottom-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
